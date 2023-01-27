@@ -30,6 +30,8 @@ public class Day21_TechproLoginTest {
         techproedHomePage.homeLogoutButton.click();
         Assert.assertTrue(techproLoginPage.LoginHeader.isDisplayed());
 
+        //3- Driver'ı kapat.
+        Driver.closeDriver();
 
     }
 }

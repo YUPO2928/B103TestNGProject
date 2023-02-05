@@ -5,13 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1701073-3ab9-43c9-99d8-0b0cb205e3da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/mysmoketestdata.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/excelautomation/Day23_ExcelLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Belirligruplar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/belirliclasslar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listeners1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/listeners2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regressiontest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smoketest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Homework/Negatif_Login_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day24_DataProviderTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day24_DataProviderTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day24_DataProviderTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/dataprovider/Day25_DataProviderTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/excelautomation/Day24_ExcelLogin2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/listeners/Day27_ListenersTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/listeners/Day27_ListenersTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/listeners/Day27_ListenersTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/listeners/Day27_ListenersTest4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/paralleltesting/Day26_ManagerLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/paralleltesting/Day26_SearchItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/paralleltesting/Day26_TechProEducationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/paralleltesting/NOT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day19_TestNGAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/DataProviderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ListenersRetry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ListenersRetryAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230204105713.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230204105740.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230204110008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Screenshots/20230204110037.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/BlueRentalLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day19_TestNGAnnotations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_DependsOnMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day20_DependsOnMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_Driver_Config_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day20_Driver_Config_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day20_SoftAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day20_SoftAssertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_OpenSourceLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day21_OpenSourceLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_TechproLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day21_TechproLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/excelautomation/Day23_ExcelLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/excelautomation/Day23_ExcelLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day22_PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/smoketests/Day22_PositiveLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +82,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -64,53 +100,61 @@
       <recent name="C:\Users\Yunus\IdeaProjects\B103TestNGProject\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day22_NegativeLoginTest">
-    <configuration name="Day21_OpenSourceLogin.openSourcesLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Yunus/IdeaProjects/B103TestNGProject/testng.xml">
+    <configuration name="C:/Users/Yunus/IdeaProjects/B103TestNGProject/listeners1.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day21_OpenSourceLogin" />
-      <option name="METHOD_NAME" value="openSourcesLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/listeners1.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day21_OpenSourceLogin.openSourcesLogin2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Yunus/IdeaProjects/B103TestNGProject/paralleltest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day21_OpenSourceLogin" />
-      <option name="METHOD_NAME" value="openSourcesLogin2" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/paralleltest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day21_TechproLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Yunus/IdeaProjects/B103TestNGProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B103TestNGProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.FailedReporter" />
+        <listener class="org.testng.reporters.SuiteHTMLReporter" />
+        <listener class="org.testng.reporters.TestHTMLReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day27_ListenersTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="PATTERN" value="techproed.tests.listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day21_TechproLoginTest" />
+      <option name="PACKAGE_NAME" value="techproed.tests.listeners" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.listeners.Day27_ListenersTest1" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -118,16 +162,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day22_NegativeLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day27_ListenersTest3" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B103TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="techproed.tests.smoketests.*" />
+          <option name="PATTERN" value="techproed.tests.listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.smoketests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.smoketests.Day22_NegativeLoginTest" />
+      <option name="PACKAGE_NAME" value="techproed.tests.listeners" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.listeners.Day27_ListenersTest3" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -135,30 +179,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day22_PositiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B103TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.smoketests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests.smoketests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.smoketests.Day22_PositiveLoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/Users/Yunus/IdeaProjects/B103TestNGProject/listeners1.xml" />
+      <item itemvalue="TestNG.C:/Users/Yunus/IdeaProjects/B103TestNGProject/paralleltest.xml" />
+      <item itemvalue="TestNG.C:/Users/Yunus/IdeaProjects/B103TestNGProject/testng.xml" />
+      <item itemvalue="TestNG.Day27_ListenersTest1" />
+      <item itemvalue="TestNG.Day27_ListenersTest3" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day22_NegativeLoginTest" />
-        <item itemvalue="TestNG.Day22_PositiveLoginTest" />
-        <item itemvalue="TestNG.Day21_TechproLoginTest" />
-        <item itemvalue="TestNG.Day21_OpenSourceLogin.openSourcesLogin2" />
-        <item itemvalue="TestNG.Day21_OpenSourceLogin.openSourcesLogin" />
+        <item itemvalue="TestNG.C:/Users/Yunus/IdeaProjects/B103TestNGProject/testng.xml" />
+        <item itemvalue="TestNG.Day27_ListenersTest3" />
+        <item itemvalue="TestNG.C:/Users/Yunus/IdeaProjects/B103TestNGProject/listeners1.xml" />
+        <item itemvalue="TestNG.Day27_ListenersTest1" />
+        <item itemvalue="TestNG.C:/Users/Yunus/IdeaProjects/B103TestNGProject/paralleltest.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -172,5 +206,8 @@
       <updated>1674328640052</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

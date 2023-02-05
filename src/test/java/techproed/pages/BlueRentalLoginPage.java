@@ -22,5 +22,9 @@ public class BlueRentalLoginPage {
 
     @FindBy(id="1zetvktns")
     public WebElement error_message_1;
+
+    @FindBy (xpath = "//*[.='email must be a valid email']")
+    public  WebElement invalid_Message;
+
 }
 

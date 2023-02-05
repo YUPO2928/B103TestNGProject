@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="techproed.utilities.ListenersRetryAnalyzer"></listener>
+        <!--"ListenersRetryAnalyzer" yerine, "ListenersRetry" kullanırsak çalışmaz.
+        Çünkü ListenersRetry class ının implement olduğu IRetryAnalyzer interface'i test ile uyumlu değildir, XML de kullanılamaz -->
+
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Yunus/IdeaProjects/B103TestNGProject/src/test/java/techproed/tests/listeners/Day27_ListenersTest4.java">
+        <classes>
+            <class name="techproed.tests.listeners.Day27_ListenersTest4">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

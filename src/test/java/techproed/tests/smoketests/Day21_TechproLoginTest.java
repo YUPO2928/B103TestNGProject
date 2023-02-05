@@ -1,4 +1,4 @@
-package techproed.tests;
+package techproed.tests.smoketests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -12,7 +12,7 @@ public class Day21_TechproLoginTest {
 
     TechproedLoginPage techproLoginPage = new   TechproedLoginPage();
     TechproedHomePage techproedHomePage = new TechproedHomePage();
-    @Test
+    @Test(groups = "regression-tests")
     public void openSourcesLogin2(){
 
         //1- Page object Model kullanarak sayfaya giriş yapildigini test edin.

@@ -1,4 +1,5 @@
 package techproed.tests.excelautomation;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import techproed.pages.BlueRentalHomePage;
 import techproed.pages.BlueRentalLoginPage;
@@ -6,6 +7,8 @@ import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
 import techproed.utilities.ExcelUtils;
 import techproed.utilities.ReusableMethods;
+
+import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 public class Day23_ExcelLogin {
@@ -49,16 +52,16 @@ public class Day23_ExcelLogin {
         }
     }
     @Test
-    public void customerLogin(){
-        String path="./src/test/java/resources/mysmoketestdata.xlsx";
+    public void customerLogin() throws IOException {
+        String path = "./src/test/java/resources/mysmoketestdata.xlsx";
 //        ./ ONCEKI TUM DOSYALARI ICER. RELATIVE PATH.
         String sayfa = "customer_info";
 //        DATALARI EXCEL UTILS METOTLARINI KULLANARAK BURAYA ALACAZ
-        excelUtils = new ExcelUtils(path,sayfa);
+        excelUtils = new ExcelUtils(path, sayfa);
 //        excel datalarini getDataList metotu ile cekelim
         excelDatalari = excelUtils.getDataList();
 //        LOOP KULLANARAK DATALARI TEK TEK TEST CASEDE KULLNA
-        for (Map<String,String> data : excelDatalari){
+        for (Map<String, String> data : excelDatalari) {
             login();//Her Loopda Login Sayfasina Goturecek
 //            kullanici adini gir
             ReusableMethods.waitFor(1);
@@ -70,9 +73,20 @@ public class Day23_ExcelLogin {
             ReusableMethods.waitFor(1);
             blueRentalLoginPage.loginButton.click();
             ReusableMethods.waitFor(1);
+            //giris isleminin basarılı oldugunu gostermek icin assertion
+            ReusableMethods.verifyElementDisplayed(blueRentalHomePage.userID);
+            ReusableMethods.waitFor(1);
+            //Herbir girisden sonra ekran goruntusu aldık.
+            ReusableMethods.getScreenshot("EkranGorontusu");
         }
+
+        Driver.getDriver().close();
     }
+
+
 }
+
+
 /*
 sam.walker@bluerentalcars.com   c!fas_art
 kate.brown@bluerentalcars.com   tad1$Fas
